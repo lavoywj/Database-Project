@@ -1,18 +1,3 @@
-/*
-Team name: Green
-Team members: Walker LaVoy, Jason Rowland, Shakah Alhamed, Van Nguyen
-Date: 05/15/2018
-CSCI 367 - Spring 2018
-Project: Movie review web application
-Description: There are three main types of user, member, admin and visitor. Visitor can only search movie and read
-  all the information related to the movie. Member can write a review to a movie, delete or edit their own reviews, and
-  change their account password. Admin is a subclass of member, they have additional privileges like add movie/actor/genre/acts in/describes,
-  edit/delete movie, and delete all members' review.
-Deliverable 5
-Instruction: Run Main in IntelliJ IDEA
-Source code: Professor Wolff, class slides, class exercises
- */
-
 import spark.Request;
 import spark.Response;
 import spark.Session;
